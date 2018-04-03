@@ -8006,8 +8006,8 @@
 10	СМИ	_	PROPN	NN	Animacy=Inan|Gender=Neut|Number=Plur|Person=3	8	obl	_	_
 11	(	_	PUNCT	(	_	12	punct	_	SpaceAfter=No
 12	2017	_	NUM	JJ	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Variant=Long	6	appos	_	_
-13	или	_	CCONJ	CC	_	15	cc	_	_
-14	2020	_	NUM	JJ	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Variant=Long	15	conj	_	_
+13	или	_	CCONJ	CC	_	14	cc	_	_
+14	2020	_	NUM	JJ	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Variant=Long	12	conj	_	_
 15	год	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nmod	_	SpaceAfter=No
 16	)	_	PUNCT	)	_	12	punct	_	SpaceAfter=No
 17	,	_	PUNCT	,	_	6	punct	_	_
