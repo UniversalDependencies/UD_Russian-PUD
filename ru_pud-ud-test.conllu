@@ -20444,7 +20444,7 @@
 7	упал	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	0	root	_	_
 8	ниже	_	ADV	RBR	_	7	advmod	_	_
 9	20	_	NUM	CD	Case=Gen	10	nummod	_	SpaceAfter=No
-10	%	_	SYM	SYM	_	8	obl:gmod	_	SpaceAfter=No
+10	%	_	SYM	SYM	_	8	obl	_	SpaceAfter=No
 11	,	_	PUNCT	,	_	16	punct	_	_
 12	и	_	CCONJ	CC	_	16	cc	_	_
 13	уже	_	ADV	RB	_	14	advmod	_	_
