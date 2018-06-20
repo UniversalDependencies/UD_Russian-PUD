@@ -70,7 +70,7 @@
     <feat name="Voice" value="Pass" upos="VERB">257</feat><!-- использованы, объявлен, потраченное, расположены, включены, выращенных, закрыт, написано, освобожден, позволено -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="41">
+  <deps unique="40">
     <dep name="acl">229</dep>
     <dep name="acl:relcl">162</dep>
     <dep name="advcl">211</dep>
@@ -103,8 +103,7 @@
     <dep name="nsubj:pass">149</dep>
     <dep name="nummod">385</dep>
     <dep name="obj">725</dep>
-    <dep name="obl">1412</dep>
-    <dep name="obl:gmod">1</dep>
+    <dep name="obl">1413</dep>
     <dep name="obl:tmod">81</dep>
     <dep name="orphan">26</dep>
     <dep name="parataxis">132</dep>
