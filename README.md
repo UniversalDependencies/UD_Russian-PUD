@@ -112,7 +112,7 @@ Data available since: UD v2.1
 License: CC BY-SA 3.0
 Includes text: yes
 Genre: news wiki
-Lemmas: manual
+Lemmas: manual native
 UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
