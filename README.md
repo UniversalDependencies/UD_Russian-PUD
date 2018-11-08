@@ -36,7 +36,7 @@ employ ten-fold cross-validation.
 
 # Changelog
 * 2018-11-15 v2.3
-  * + Lemmas
+  * Lemmas
 
 
 * 2017-11-15 v2.1
