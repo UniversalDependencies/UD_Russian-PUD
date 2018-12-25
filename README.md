@@ -35,6 +35,11 @@ employ ten-fold cross-validation.
 
 
 # Changelog
+* 2019-05-15 v2.4
+  * Manual POS
+  * Manual features
+
+
 * 2018-11-15 v2.3
   * Lemmas
 
