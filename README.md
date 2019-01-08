@@ -118,11 +118,11 @@ License: CC BY-SA 3.0
 Includes text: yes
 Genre: news wiki
 Lemmas: manual native
-UPOS: converted from manual
+UPOS: manual native
 XPOS: not available
-Features: converted from manual
-Relations: converted from manual
+Features: manual native
+Relations: manual native
 Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Lando, Tatiana; Loginova, Olga; Popel, Martin; Zeman, Daniel; Droganova, Kira
 Contributing: here
-Contact: zeman@ufal.mff.cuni.cz
+Contact: droganova@ufal.mff.cuni.cz
 ===============================================================================
