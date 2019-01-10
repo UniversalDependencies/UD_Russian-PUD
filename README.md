@@ -38,6 +38,7 @@ employ ten-fold cross-validation.
 * 2019-05-15 v2.4
   * Manual POS
   * Manual features
+  * Manual lemmas
 
 
 * 2018-11-15 v2.3

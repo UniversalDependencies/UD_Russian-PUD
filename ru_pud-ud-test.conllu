@@ -3032,7 +3032,7 @@
 3	мобильные	мобильный	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
 4	телефоны	телефон	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
 5	—	—	PUNCT	-	_	4	punct	_	OrigForm=--
-6	это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	7	cop	_	_
+6	это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	7	expl	_	_
 7	больше	больше	ADV	RBR	Degree=Cmp	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	_	_
 9	чем	чем	SCONJ	IN	_	10	case	_	_
@@ -3618,7 +3618,7 @@
 1	Ведь	ведь	PART	UH	_	6	discourse	_	_
 2	интернет	интернет	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 3	—	—	PUNCT	-	_	2	punct	_	OrigForm=--
-4	это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	6	cop	_	_
+4	это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	6	expl	_	_
 5	не	не	PART	NEG	Polarity=Neg	6	advmod	_	_
 6	роскошь	роскошь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	10	punct	_	_
@@ -4005,7 +4005,7 @@
 9	двиганья	двигание	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
 10	задницами	задница	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	9	nmod	_	_
 11	—	—	PUNCT	-	_	15	punct	_	OrigForm=--
-12	это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	15	cop	_	_
+12	это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	15	expl	_	_
 13	их	их	DET	PRP$	_	15	det	_	_
 14	главная	главный	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
 15	забота	забота	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	parataxis	_	SpaceAfter=No
@@ -6257,7 +6257,7 @@
 15	всеобщие	всеобщий	ADJ	JJ	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
 16	выборы	выборы	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
 17	—	—	PUNCT	-	_	16	punct	_	OrigForm=--
-18	это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	19	cop	_	_
+18	это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	19	expl	_	_
 19	последнее	последний	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	parataxis	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	22	punct	_	_
 21	чего	что	PRON	WP	Case=Gen	22	obj	_	_
@@ -8814,7 +8814,7 @@
 13	,	,	PUNCT	,	_	5	punct	_	_
 14	ноябрь	ноябрь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
 15	—	—	PUNCT	-	_	14	punct	_	OrigForm=--
-16	это	это	PART	UH	_	18	cop	_	_
+16	это	это	PART	UH	_	18	expl	_	_
 17	отличное	отличный	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
 18	время	время	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	18	punct	_	_
@@ -9765,7 +9765,7 @@
 # english_text = The atmosphere is a chaotic system, so small changes to one part of the system can grow to have large effects on the system as a whole.
 1	Атмосфера	атмосфера	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	—	—	PUNCT	-	_	1	punct	_	OrigForm=--
-3	это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	5	cop	_	_
+3	это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	5	expl	_	_
 4	хаотическая	хаотический	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	система	система	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	14	punct	_	_
@@ -20983,7 +20983,7 @@
 2	здесь	здесь	ADV	RB	Degree=Pos	1	advmod	_	_
 3	мусульмане	мусульманин	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 4	—	—	PUNCT	-	_	8	punct	_	OrigForm=--
-5	это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	8	cop	_	_
+5	это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	8	expl	_	_
 6	в	в	ADP	IN	_	7	case	_	_
 7	основном	основное	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
 8	переселенцы	переселенец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
