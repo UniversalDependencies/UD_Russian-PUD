@@ -995,7 +995,7 @@
 4	«	«	PUNCT	``	_	5	punct	_	SpaceAfter=No
 5	сертифицирован	сертифицировать	VERB	VBNH	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 6	»	»	PUNCT	'	_	5	punct	_	_
-7	спецслужбой	спецслужба	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	iobj	_	_
+7	спецслужбой	спецслужба	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl:agent	_	_
 8	«	«	PUNCT	``	_	9	punct	_	SpaceAfter=No
 9	Центр	центр	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
 10	правительственной	правительственный	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	Proper=True
@@ -2378,7 +2378,7 @@
 30	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01036033
-# text = В настоящее время максимальный размер штрафа, который Совет по недвижимости Онтарио (RECO) может наложить на агента, составляет 25 000 долларов США.
+# text = В настоящее время максимальный размер штрафа, который Совет по недвижимости Онтарио (RECO) может наложить на агента, составляет 25000 долларов США.
 # english_text = Currently, the maximum fine RECO can levy against an agent is $25,000.
 1	В	в	ADP	IN	_	21	advmod	_	_
 2	настоящее	настоящее	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	_
@@ -2401,7 +2401,7 @@
 19	агента	агент	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	16	punct	_	_
 21	составляет	составлять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-22	25 000	25000	NUM	CD	_	23	nummod	_	OrigForm=25000
+22	25000	25000	NUM	CD	_	23	nummod	_	OrigForm=25000
 23	долларов	доллар	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
 24	США	США	PROPN	NNP	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	21	punct	_	_
@@ -2744,7 +2744,7 @@
 
 # newdoc id = n01043
 # sent_id = n01043005
-# text = Руководители также получили так называемую «сдельную заработную плату» за выполнение или превышение ожиданий, разделив между собой сумму в 1,5 миллиона долларов США, или в среднем 15 000 долларов США каждый.
+# text = Руководители также получили так называемую «сдельную заработную плату» за выполнение или превышение ожиданий, разделив между собой сумму в 1,5 миллиона долларов США, или в среднем 15000 долларов США каждый.
 # english_text = The executives also received so-called "performance pay" for succeeding or surpassing expectations, sharing a pot of $1.5 million among them, or an estimated $15,000 each on average.
 1	Руководители	руководитель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 2	также	также	ADV	RB	Degree=Pos	3	advmod	_	_
@@ -2775,7 +2775,7 @@
 27	или	или	CCONJ	CC	_	33	cc	_	_
 28	в	в	ADP	IN	_	29	case	_	_
 29	среднем	среднее	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	30	nmod	_	_
-30	15 000	15000	NUM	CD	_	31	nummod	_	OrigForm=15000
+30	15000	15000	NUM	CD	_	31	nummod	_	OrigForm=15000
 31	долларов	доллар	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	orphan	_	_
 32	США	США	PROPN	NNP	Abbr=Yes|Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
 33	каждый	каждый	DET	DT	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
@@ -3384,7 +3384,7 @@
 16	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01051007
-# text = Это наиболее распространенная опухоль, обнаруживаемая у одного из 35 000 детей.
+# text = Это наиболее распространенная опухоль, обнаруживаемая у одного из 35000 детей.
 # english_text = It is the most common tumour found in babies, occurring in one of every 35,000 births.
 1	Это	это	PRON	DT	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 2	наиболее	наиболее	ADV	RBS	Degree=Sup	3	advmod	_	_
@@ -3395,7 +3395,7 @@
 7	у	у	ADP	IN	_	8	case	_	_
 8	одного	один	NUM	CD	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
 9	из	из	ADP	IN	_	11	case	_	_
-10	35 000	35000	NUM	CD	_	11	nummod	_	OrigForm=35000
+10	35000	35000	NUM	CD	_	11	nummod	_	OrigForm=35000
 11	детей	ребенок	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -5054,7 +5054,7 @@
 
 # newdoc id = n01084
 # sent_id = n01084008
-# text = Т. е. теоретически семейная пара может открыть четыре счета «Теско» и получить 3% от 12 000 фунтов стерлингов, т. е. 360 фунтов стерлингов.
+# text = Т. е. теоретически семейная пара может открыть четыре счета «Теско» и получить 3% от 12000 фунтов стерлингов, т. е. 360 фунтов стерлингов.
 # english_text = Theoretically, a couple could open four Tesco accounts and earn 3% on £12,000 – £360.
 1	Т.	т.	PRON	DT	Abbr=Yes|Case=Nom|Gender=Neut|Number=Sing	6	mark	_	_
 2	е.	е.	VERB	VBC	Abbr=Yes|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	_
@@ -5073,7 +5073,7 @@
 15	3	3	NUM	CD	_	16	nummod	_	SpaceAfter=No
 16	%	%	SYM	SYM	_	14	obj	_	_
 17	от	от	ADP	IN	_	19	case	_	_
-18	12 000	12000	NUM	CD	_	19	nummod	_	OrigForm=12000
+18	12000	12000	NUM	CD	_	19	nummod	_	OrigForm=12000
 19	фунтов	фунт	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
 20	стерлингов	стерлинг	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	25	punct	_	_
@@ -5138,7 +5138,7 @@
 14	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = n01084045
-# text = Эта ставка в 3% работает также для владельцев карт Nectar, которые хотят взять кредит в размере от 15 001 до 19 999 фунтов стерлингов на период от двух до трех лет.
+# text = Эта ставка в 3% работает также для владельцев карт Nectar, которые хотят взять кредит в размере от 15001 до 19999 фунтов стерлингов на период от двух до трех лет.
 # english_text = That 3% rate also applies to Nectar cardholders looking to borrow from £15,001-£19,999 over a period of between two and three years.
 1	Эта	этот	DET	DT	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
 2	ставка	ставка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -5159,9 +5159,9 @@
 17	в	в	ADP	IN	_	18	case	_	_
 18	размере	размер	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
 19	от	от	ADP	IN	_	20	case	_	_
-20	15 001	15001	NUM	CD	_	23	nummod	_	OrigForm=15001
+20	15001	15001	NUM	CD	_	23	nummod	_	OrigForm=15001
 21	до	до	ADP	IN	_	22	case	_	_
-22	19 999	19999	NUM	CD	_	20	nmod	_	OrigForm=19999
+22	19999	19999	NUM	CD	_	20	nmod	_	OrigForm=19999
 23	фунтов	фунт	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
 24	стерлингов	стерлинг	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
 25	на	на	ADP	IN	_	26	case	_	_
@@ -6699,14 +6699,14 @@
 
 # newdoc id = n01110
 # sent_id = n01110006
-# text = Обладающий обычным везением и имеющий 10 000 фунтов стерлингов в облигациях инвестор мог рассчитывать на доход в 125 фунтов в год.
+# text = Обладающий обычным везением и имеющий 10000 фунтов стерлингов в облигациях инвестор мог рассчитывать на доход в 125 фунтов в год.
 # english_text = An investor with average luck and £10,000 in bonds could expect to receive £125 in prizes per year.
 1	Обладающий	обладать	VERB	VBNL	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	_	_
 2	обычным	обычный	ADJ	JJ	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
 3	везением	везение	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	xcomp	_	_
 4	и	и	CCONJ	CC	_	5	cc	_	_
 5	имеющий	иметь	VERB	VBNL	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	conj	_	_
-6	10 000	10000	NUM	CD	_	7	nummod	_	OrigForm=10000
+6	10000	10000	NUM	CD	_	7	nummod	_	OrigForm=10000
 7	фунтов	фунт	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obj	_	_
 8	стерлингов	стерлинг	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
 9	в	в	ADP	IN	_	10	case	_	_
@@ -7812,7 +7812,7 @@
 18	.	.	PUNCT	.	_	14	punct	_	_
 
 # sent_id = n01131013
-# text = У республиканцев был большой перевес после заочного голосования и около 16 500 голосов в начале этой недели.
+# text = У республиканцев был большой перевес после заочного голосования и около 16500 голосов в начале этой недели.
 # english_text = The GOP lead was carried by strong numbers in absentee voting, and their overall edge stood at about 16,500 earlier this week.
 1	У	у	ADP	IN	_	2	case	_	_
 2	республиканцев	республиканец	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
@@ -7824,7 +7824,7 @@
 8	голосования	голосование	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
 9	и	и	CCONJ	CC	_	12	cc	_	_
 10	около	около	ADP	IN	_	12	case	_	_
-11	16 500	16500	NUM	CD	_	12	nummod	_	OrigForm=16500
+11	16500	16500	NUM	CD	_	12	nummod	_	OrigForm=16500
 12	голосов	голос	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	conj	_	_
 13	в	в	ADP	IN	_	14	case	_	_
 14	начале	начало	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	orphan	_	_
@@ -8454,7 +8454,7 @@
 7	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 8	стал	стать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	parataxis	_	_
 9	ракеткой	ракетка	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	xcomp	_	_
-10	№	№	SYM	SYM	_	9	nmod	_	_
+10	№	№	SYM	SYM	_	9	nummod:entity	_	_
 11	1	1	NUM	CD	_	10	nummod	_	_
 12	в	в	ADP	IN	_	13	case	_	_
 13	мире	мир	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -8962,7 +8962,7 @@
 3	наградами	награда	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	iobj	_	_
 4	здание	здание	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
 5	спроектировано	спроектировать	VERB	VBNH	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
-6	Хуаном	Хуан	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	iobj	_	_
+6	Хуаном	Хуан	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl:agent	_	_
 7	Карлосом	Карлос	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	flat:name	_	_
 8	Саласом	Салас	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	flat:name	_	_
 9	—	—	PUNCT	-	_	11	punct	_	OrigForm=--
@@ -9971,7 +9971,7 @@
 22	до	до	ADP	IN	_	23	case	_	_
 23	14	14	NUM	CD	_	21	nmod	_	_
 24	лет	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
-25	были	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	aux:pass	_	_
+25	были	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	aux	_	_
 26	работающими	работать	VERB	VBNL	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	acl	_	_
 27	и	и	CCONJ	CC	_	39	cc	_	_
 28	почти	почти	ADV	RB	Degree=Pos	29	advmod	_	_
@@ -11267,7 +11267,7 @@
 6	Годом	год	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	xcomp	_	_
 7	реки	река	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 8	»	»	PUNCT	``	_	6	punct	_	_
-9	лорд-мэром	лорд-мэр	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	iobj	_	_
+9	лорд-мэром	лорд-мэр	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl:agent	_	_
 10	Брисбена	Брисбен	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 11	того	тот	DET	DT	Case=Gen|Gender=Neut|Number=Sing	12	det	_	_
 12	времени	время	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
@@ -11299,7 +11299,7 @@
 17	не	не	PART	NEG	Polarity=Neg	18	advmod	_	_
 18	защищена	защитить	VERB	VBNH	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
 19	растительным	растительный	ADJ	JJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
-20	покровом	покров	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	iobj	_	SpaceAfter=No
+20	покровом	покров	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl:agent	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = w01040101
@@ -12308,7 +12308,7 @@
 17	она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	19	nsubj:pass	_	_
 18	была	быть	AUX	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
 19	скрыта	скрыть	VERB	VBNH	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	_
-20	облаками	облако	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	19	iobj	_	_
+20	облаками	облако	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	19	obl:agent	_	_
 21	или	или	CCONJ	CC	_	22	cc	_	_
 22	дымом	дым	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	8	punct	_	_
@@ -13233,7 +13233,7 @@
 15	и	и	CCONJ	CC	_	17	cc	_	_
 16	непрерывно	непрерывно	ADV	RB	Degree=Pos	17	advmod	_	_
 17	использовалась	использоваться	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	7	conj	_	_
-18	народом	народ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	iobj	_	SpaceAfter=No
+18	народом	народ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl:agent	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	_	_
 20	живущим	жить	VERB	VBNL	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	acl	_	_
 21	там	там	ADV	RB	Degree=Pos	20	advmod	_	_
@@ -13431,7 +13431,7 @@
 2	были	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
 3	настолько	настолько	ADV	RB	Degree=Pos	4	advmod	_	_
 4	тронуты	тронуть	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
-5	красотой	красота	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	iobj	_	_
+5	красотой	красота	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl:agent	_	_
 6	озера	озеро	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
 7	Редьярд	Редьярд	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	18	punct	_	_
@@ -14280,7 +14280,7 @@
 12	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = w01086037
-# text = К 1563 году население Венеции сократилось примерно до 168 000 человек.
+# text = К 1563 году население Венеции сократилось примерно до 168000 человек.
 # english_text = By 1563, the population of Venice had dropped to about 168,000 people.
 1	К	к	ADP	IN	_	3	case	_	_
 2	1563	1563	ADJ	ORD	_	3	amod	_	_
@@ -14290,7 +14290,7 @@
 6	сократилось	сократиться	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 7	примерно	примерно	ADV	RB	Degree=Pos	10	advmod	_	_
 8	до	до	ADP	IN	_	10	case	_	_
-9	168 000	168000	NUM	CD	_	10	nummod	_	OrigForm=168000
+9	168000	168000	NUM	CD	_	10	nummod	_	OrigForm=168000
 10	человек	человек	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -14495,7 +14495,7 @@
 4	работы	работа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 5	были	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
 6	внедрены	внедрить	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
-7	шотландцем	шотландец	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	iobj	_	_
+7	шотландцем	шотландец	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl:agent	_	_
 8	Джоном	Джон	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	flat:name	_	_
 9	Ваттом	Ватт	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	6	punct	_	_
@@ -16736,16 +16736,16 @@
 
 # newdoc id = w01131
 # sent_id = w01131060
-# text = По крайней мере 330 000 человек, включая 10 000 технических работников, были задействованы.
+# text = По крайней мере 330000 человек, включая 10000 технических работников, были задействованы.
 # english_text = At least 330,000 people, including 10,000 technicians, were involved.
 1	По	по	ADP	IN	_	4	advmod	_	_
 2	крайней	крайний	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	1	fixed	_	_
 3	мере	мера	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	fixed	_	_
-4	330 000	330000	NUM	CD	_	5	nummod	_	OrigForm=330000
+4	330000	330000	NUM	CD	_	5	nummod	_	OrigForm=330000
 5	человек	человек	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nsubj:pass	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	_	_
 7	включая	включая	ADP	IN	_	5	acl	_	_
-8	10 000	10000	NUM	CD	_	10	nummod	_	OrigForm=10000
+8	10000	10000	NUM	CD	_	10	nummod	_	OrigForm=10000
 9	технических	технический	ADJ	JJ	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
 10	работников	работник	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	7	punct	_	_
@@ -19564,7 +19564,7 @@
 8	была	быть	AUX	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
 9	отвергнута	отвергнуть	VERB	VBNH	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
 10	Кассационным	кассационный	ADJ	JJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	Proper=True
-11	Судом	суд	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obj	_	_
+11	Судом	суд	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl:agent	_	_
 12	21	21	ADJ	ORD	_	13	amod	_	_
 13	октября	октябрь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	_	_
@@ -21628,7 +21628,7 @@
 3	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	_
 4	разрушен	разрушить	VERB	VBNH	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
 5	шведскими	шведский	ADJ	JJ	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
-6	войсками	войско	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	iobj	_	_
+6	войсками	войско	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	obl:agent	_	_
 7	в	в	ADP	IN	_	9	case	_	_
 8	1632	1632	ADJ	ORD	_	9	amod	_	_
 9	году	год	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
@@ -22136,7 +22136,7 @@
 26	отрезаны	отрезать	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	parataxis	_	_
 27	от	от	ADP	IN	_	28	case	_	_
 28	соседей	сосед	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	obl	_	_
-29	морем	море	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	26	iobj	_	_
+29	морем	море	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	26	obl:agent	_	_
 30	или	или	CCONJ	CC	_	32	cc	_	_
 31	горными	горный	ADJ	JJ	Case=Ins|Degree=Pos|Number=Plur	32	amod	_	_
 32	хребтами	хребет	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	29	conj	_	SpaceAfter=No
@@ -23019,7 +23019,7 @@
 23	мелодии	мелодия	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	25	nsubj:pass	_	_
 24	были	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	25	aux:pass	_	_
 25	написаны	написать	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	parataxis	_	_
-26	ими	они	PRON	PRP	Case=Ins|Number=Plur|Person=3	25	iobj	_	_
+26	ими	они	PRON	PRP	Case=Ins|Number=Plur|Person=3	25	obl:agent	_	_
 27	совместно	совместно	ADV	RB	Degree=Pos	25	advmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	2	punct	_	_
 
