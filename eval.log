@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Russian-PUD:
-commit b2df73fdd3b46cd4c1687299cc0f490fe9bed648
+commit 8fa876eee0748c279d3c876fe9844c7f7b557bd6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 10 13:39:35 2019 +0200
+Date:   Fri May 10 21:38:31 2019 +0200
 Size: counted 19355 of 19355 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.92590156805922.
 Size: maximum value 13.815511 is for 1000000 words or more.
