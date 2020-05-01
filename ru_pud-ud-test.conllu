@@ -14999,7 +14999,7 @@
 11	были	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
 12	побеждены	побеждать	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	parataxis	_	_
 13	и	и	CCONJ	CC	_	14	cc	_	_
-14	принуждены	принужденный	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	conj	_	_
+14	принуждены	принудить	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	conj	_	_
 15	к	к	ADP	IN	_	16	case	_	_
 16	заключению	заключение	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
 17	Тяньцзиньского	тяньцзиньский	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	Proper=True
@@ -15064,7 +15064,7 @@
 2	изобретения	изобретение	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
 3	Ламарр	Ламарр	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	включают	включать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	улучшенный	улучшить	ADJ	JJ	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	улучшенный	улучшить	VERB	JJ	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	acl	_	_
 6	светофор	светофор	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 7	и	и	CCONJ	CC	_	8	cc	_	_
 8	таблетку	таблетка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
@@ -15077,7 +15077,7 @@
 15	,	,	PUNCT	,	_	12	punct	_	_
 16	делает	делать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
 17	ее	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	obj	_	_
-18	газированной	газированный	ADJ	JJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	xcomp	_	SpaceAfter=No
+18	газированной	газировать	VERB	JJ	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	16	xcomp	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = w01101084
@@ -23426,7 +23426,7 @@
 16	испанского	испанский	ADJ	JJ	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	nmod	_	_
 17	к	к	ADP	IN	_	19	case	_	_
 18	современному	современный	ADJ	JJ	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
-19	испанскому	испанский	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+19	испанскому	испанский	ADJ	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = w05006058
