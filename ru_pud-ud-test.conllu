@@ -767,7 +767,7 @@
 26	,	,	PUNCT	,	_	31	punct	_	_
 27	и	и	CCONJ	CC	_	31	cc	_	_
 28	втрое	втрое	ADV	RB	Degree=Pos	29	advmod	_	_
-29	больше	много	NUM	RBR	Degree=Cmp	30	nummod	_	_
+29	больше	много	NUM	RBR	_	30	nummod	_	_
 30	детей	ребенок	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	31	obl	_	_
 31	получили	получить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
 32	имя	имя	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	31	obj	_	_
@@ -2174,7 +2174,7 @@
 14	что	что	SCONJ	IN	_	16	mark	_	_
 15	они	они	PRON	PRP	Case=Nom|Number=Plur|Person=3	16	nsubj	_	_
 16	имеют	иметь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	_
-17	больше	много	NUM	RBR	Degree=Cmp	18	nummod	_	_
+17	больше	много	NUM	RBR	_	18	nummod	_	_
 18	вопросов	вопрос	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	21	punct	_	_
 20	чем	чем	SCONJ	IN	_	21	case	_	_
@@ -3312,7 +3312,7 @@
 10	,	,	PUNCT	,	_	12	punct	_	_
 11	что	что	SCONJ	IN	_	12	mark	_	_
 12	требуется	требоваться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	ccomp	_	_
-13	больше	много	NUM	RBR	Degree=Cmp	14	nummod	_	_
+13	больше	много	NUM	RBR	_	14	nummod	_	_
 14	доноров	донор	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -3831,7 +3831,7 @@
 7	и	и	CCONJ	CC	_	8	cc	_	_
 8	США	США	PROPN	NNP	Abbr=Yes|Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	conj	_	_
 9	различий	различие	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	obj	_	_
-10	больше	много	NUM	RBR	Degree=Cmp	0	root	_	SpaceAfter=No
+10	больше	много	NUM	RBR	_	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	_	_
 12	чем	чем	SCONJ	IN	_	13	case	_	_
 13	схожести	схожесть	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
@@ -3866,7 +3866,7 @@
 16	,	,	PUNCT	,	_	19	punct	_	_
 17	что	что	SCONJ	IN	_	19	mark	_	_
 18	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	19	iobj	_	_
-19	надо	надо	VERB	PRED	Degree=Pos	15	ccomp	_	_
+19	надо	надо	VERB	PRED	_	15	ccomp	_	_
 20	сделать	сделать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	19	csubj	_	_
 21	что-то	что-то	PRON	WP	Case=Acc	20	obj	_	_
 22	другое	другой	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	SpaceAfter=No
@@ -4987,7 +4987,7 @@
 # english_text = “More people are turning to credit … While this borrowing might be manageable now, a sudden change in circumstances could lead to debt problems.”
 1	«	«	PUNCT	``	_	5	punct	_	SpaceAfter=No
 2	Все	все	ADV	RB	Degree=Pos	3	advmod	_	_
-3	больше	много	NUM	RBR	Degree=Cmp	4	nummod	_	_
+3	больше	много	NUM	RBR	_	4	nummod	_	_
 4	людей	человек	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_
 5	берут	брать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	кредиты	кредит	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
@@ -5130,7 +5130,7 @@
 6	к	к	ADP	IN	_	8	case	_	_
 7	своим	свой	DET	PRP$	Case=Dat|Number=Plur	8	det	_	_
 8	деньгам	деньги	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	_
-9	можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+9	можно	можно	VERB	PRED	_	0	root	_	_
 10	получить	получить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	9	csubj	_	_
 11	в	в	ADP	IN	_	13	case	_	_
 12	любой	любой	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	det	_	_
@@ -5800,7 +5800,7 @@
 6	доступ	доступ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
 7	к	к	ADP	IN	_	8	case	_	_
 8	Agora	Agora	PROPN	NNP	Foreign=Yes	6	nmod	_	_
-9	можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+9	можно	можно	VERB	PRED	_	0	root	_	_
 10	было	быть	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
 11	только	только	PART	UH	_	13	advmod	_	_
 12	по	по	ADP	IN	_	13	case	_	_
@@ -6882,7 +6882,7 @@
 13	мировом	мировой	ADJ	JJ	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 14	океане	океан	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
 15	будет	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	ccomp	_	_
-16	больше	много	NUM	RBR	Degree=Cmp	17	nummod	_	_
+16	больше	много	NUM	RBR	_	17	nummod	_	_
 17	пластика	пластика	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	_	_
 19	чем	чем	SCONJ	IN	_	20	case	_	_
@@ -8765,7 +8765,7 @@
 6	«	«	PUNCT	``	_	7	punct	_	SpaceAfter=No
 7	Формула-1	Формула-1	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 8	»	»	PUNCT	'	_	7	punct	_	_
-9	можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+9	можно	можно	VERB	PRED	_	0	root	_	_
 10	также	также	ADV	RB	Degree=Pos	11	advmod	_	_
 11	попасть	попасть	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	9	csubj	_	_
 12	и	и	PART	UH	_	14	advmod	_	_
@@ -12347,7 +12347,7 @@
 5	интеграции	интеграция	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	_	_
 7	где	где	ADV	WRB	Degree=Pos	8	advmod	_	_
-8	можно	можно	VERB	PRED	Degree=Pos	5	acl:relcl	_	_
+8	можно	можно	VERB	PRED	_	5	acl:relcl	_	_
 9	было	быть	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
 10	бы	бы	AUX	RP	Mood=Cnd	8	aux	_	_
 11	применять	применять	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
@@ -12861,7 +12861,7 @@
 2	раннее	ранний	ADJ	JJ	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
 3	упоминание	упоминание	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
 4	города	город	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-5	можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+5	можно	можно	VERB	PRED	_	0	root	_	_
 6	найти	найти	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	5	csubj	_	_
 7	в	в	ADP	IN	_	8	case	_	_
 8	надписи	надпись	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
@@ -15699,7 +15699,7 @@
 6	пособие	пособие	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
 8	которое	который	PRON	WDT	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
-9	можно	можно	VERB	PRED	Degree=Pos	6	acl:relcl	_	_
+9	можно	можно	VERB	PRED	_	6	acl:relcl	_	_
 10	обналичить	обналичить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
 11	в	в	ADP	IN	_	12	case	_	_
 12	банкомате	банкомат	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
@@ -16048,7 +16048,7 @@
 16	книгой	книга	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	_	_
 18	и	и	CCONJ	CC	_	19	cc	_	_
-19	надо	надо	VERB	PRED	Degree=Pos	13	conj	_	_
+19	надо	надо	VERB	PRED	_	13	conj	_	_
 20	быть	быть	AUX	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	21	cop	_	_
 21	открытым	открытый	ADJ	JJ	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	xcomp	_	_
 22	для	для	ADP	IN	_	23	case	_	_
@@ -18262,7 +18262,7 @@
 9	старая	старый	ADJ	JJ	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
 11	то	то	SCONJ	IN	_	12	mark	_	_
-12	можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+12	можно	можно	VERB	PRED	_	0	root	_	_
 13	сэкономить	сэкономить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	12	csubj	_	_
 14	100	100	NUM	CD	_	15	nummod	_	_
 15	евро	евро	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
@@ -19464,7 +19464,7 @@
 # sent_id = n03006016
 # text = Можно ли сотрудникам держать религиозные предметы на рабочих столах?
 # english_text = Are workers allowed to keep religious objects on their desks?
-1	Можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+1	Можно	можно	VERB	PRED	_	0	root	_	_
 2	ли	ли	PART	RP	_	1	advmod	_	_
 3	сотрудникам	сотрудник	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	iobj	_	_
 4	держать	держать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	1	csubj	_	_
@@ -19872,7 +19872,7 @@
 5	евро	евро	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	_	_
 7	которые	который	PRON	WDT	Animacy=Inan|Case=Acc|Number=Plur	8	obj	_	_
-8	надо	надо	VERB	PRED	Degree=Pos	5	acl:relcl	_	_
+8	надо	надо	VERB	PRED	_	5	acl:relcl	_	_
 9	будет	быть	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	aux	_	_
 10	потратить	потратить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	_	_
 11	до	до	ADP	IN	_	13	case	_	_
@@ -19889,7 +19889,7 @@
 2	ваучер	ваучер	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj:pass	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	который	который	PRON	WDT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
-5	можно	можно	VERB	PRED	Degree=Pos	2	acl:relcl	_	_
+5	можно	можно	VERB	PRED	_	2	acl:relcl	_	_
 6	сохранить	сохранить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	5	csubj	_	_
 7	в	в	ADP	IN	_	8	case	_	_
 8	телефоне	телефон	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
@@ -20228,9 +20228,9 @@
 # text = Все больше и больше технологических компаний принимают ключевые решения на Уолл-стрит, и еще больше — в Силиконовой Долине.
 # english_text = More and more tech companies are calling the shots more than ever before on Wall Street, even more than in Silicon Valley.
 1	Все	все	ADV	RB	Degree=Pos	2	advmod	_	_
-2	больше	много	NUM	RBR	Degree=Cmp	6	nummod	_	_
+2	больше	много	NUM	RBR	_	6	nummod	_	_
 3	и	и	CCONJ	CC	_	4	cc	_	_
-4	больше	много	NUM	RBR	Degree=Cmp	2	conj	_	_
+4	больше	много	NUM	RBR	_	2	conj	_	_
 5	технологических	технологический	ADJ	JJ	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
 6	компаний	компания	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	_
 7	принимают	принимать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -20241,7 +20241,7 @@
 12	,	,	PUNCT	,	_	15	punct	_	_
 13	и	и	CCONJ	CC	_	15	cc	_	_
 14	еще	еще	ADV	RB	Degree=Pos	15	advmod	_	_
-15	больше	много	NUM	RBR	Degree=Cmp	7	conj	_	orig_deprel=nummod
+15	больше	много	NUM	RBR	_	7	conj	_	orig_deprel=nummod
 16	—	—	PUNCT	-	_	19	punct	_	OrigForm=--
 17	в	в	ADP	IN	_	19	case	_	orig_deprel=obl
 18	Силиконовой	силиконовый	ADJ	JJ	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	Proper=True
@@ -20697,7 +20697,7 @@
 1	И	и	CCONJ	CC	_	4	cc	_	_
 2	приветствовать	приветствовать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
 3	их	они	PRON	PRP	Case=Acc|Number=Plur|Person=3	2	obj	_	_
-4	надо	надо	VERB	PRED	Degree=Pos	0	root	_	_
+4	надо	надо	VERB	PRED	_	0	root	_	_
 5	с	с	ADP	IN	_	7	case	_	_
 6	открытой	открытый	ADJ	JJ	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 7	душой	душа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
@@ -21250,7 +21250,7 @@
 # text = Ее можно назвать одной из самых широко распространенных культур того времени, для которой известно большое количество мест археологических находок.
 # english_text = In its scope it belongs to the most far-reaching cultures of the time, in which many sites are known.
 1	Ее	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	3	obj	_	_
-2	можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+2	можно	можно	VERB	PRED	_	0	root	_	_
 3	назвать	назвать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	_
 4	одной	один	NUM	CD	Case=Ins|Gender=Fem|Number=Sing	3	nummod	_	_
 5	из	из	ADP	IN	_	9	case	_	_
@@ -21614,7 +21614,7 @@
 # english_text = Today, expansive ruins can be viewed there.
 1	Сейчас	сейчас	ADV	RB	Degree=Pos	3	advmod	_	_
 2	там	там	ADV	RB	Degree=Pos	3	advmod	_	_
-3	можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+3	можно	можно	VERB	PRED	_	0	root	_	_
 4	увидеть	увидеть	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	3	csubj	_	_
 5	только	только	PART	UH	_	6	advmod	_	_
 6	руины	руины	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
@@ -22243,7 +22243,7 @@
 # english_text = This affair can be seen as the starting point for his career as a radical revolutionary.
 1	Это	это	DET	DT	Case=Acc|Gender=Neut|Number=Sing	2	det	_	_
 2	дело	дело	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
-3	можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+3	можно	можно	VERB	PRED	_	0	root	_	_
 4	рассматривать	рассматривать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj	_	_
 5	как	как	SCONJ	IN	_	6	case	_	_
 6	точку	точка	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
@@ -22785,7 +22785,7 @@
 10	революции	революция	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	10	punct	_	_
 12	все	весь	ADV	RB	Degree=Pos	13	advmod	_	_
-13	больше	много	NUM	RBR	Degree=Cmp	14	nummod:gov	_	_
+13	больше	много	NUM	RBR	_	14	nummod:gov	_	_
 14	внимания	внимание	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nsubj:pass	_	_
 15	было	быть	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	aux:pass	_	_
 16	обращено	обратить	VERB	VBNH	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -23362,9 +23362,9 @@
 16	колонисты	колонист	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
 17	забирали	забирать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
 18	все	все	ADV	RB	Degree=Pos	19	advmod	_	_
-19	больше	много	NUM	RBR	Degree=Cmp	23	nummod	_	_
+19	больше	много	NUM	RBR	_	23	nummod	_	_
 20	и	и	CCONJ	CC	_	21	cc	_	_
-21	больше	много	NUM	RBR	Degree=Cmp	19	conj	_	_
+21	больше	много	NUM	RBR	_	19	conj	_	_
 22	их	они	DET	PRP$	_	23	det	_	_
 23	земель	земля	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	2	punct	_	_
@@ -23486,7 +23486,7 @@
 21	IV	iv	ADJ	ORD	_	20	flat:name	_	Proper=True
 22	было	быть	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 23	бы	бы	AUX	RP	Mood=Cnd	22	aux	_	_
-24	больше	много	NUM	RBR	Degree=Cmp	25	nummod	_	_
+24	больше	много	NUM	RBR	_	25	nummod	_	_
 25	прав	право	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	22	nsubj	_	_
 26	на	на	ADP	IN	_	27	case	_	_
 27	трон	трон	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
