@@ -46,8 +46,8 @@
     <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">884</feat><!-- тем, самым, образом, собой, главным, летом, ними, одним, помощью, другими -->
     <feat name="Case" value="Loc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1057</feat><!-- году, том, результате, качестве, этом, основном, начале, конце, мире, своей -->
     <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">2562</feat><!-- он, это, они, она, которые, я, который, мы, которая, что -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV,NUM">95</feat><!-- более, больше, лучше, менее, ранее, позже, выше, меньше, раньше, чаще -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,VERB">2522</feat><!-- также, еще, где, так, там, очень, уже, все, примерно, возможно -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">82</feat><!-- более, больше, лучше, менее, ранее, позже, выше, меньше, раньше, чаще -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">2506</feat><!-- также, еще, где, так, там, очень, уже, все, примерно, возможно -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">16</feat><!-- наиболее, лучших, важнейшим, крупнейшим, лучшего, лучшим, наибольшее, наихудших, худшим -->
     <feat name="Foreign" value="Yes" upos="NOUN,PROPN,X">208</feat><!-- BBC, CNN, a, and, Film, My, RECO, Really, Spotify, The -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">2860</feat><!-- она, была, войны, которая, своей, н., компании, часть, этой, страны -->
