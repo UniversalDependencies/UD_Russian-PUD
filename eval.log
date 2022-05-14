@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Russian-PUD:
-commit bd9f640da5dfa5dc72b50a6020c9141041474e1a
+commit 7d62c5fbac7d3a29b440c09ece5ec532f4ef348b
+Merge: 548900e 7284f92
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:50:59 2021 +0200
 Size: counted 19355 of 19355 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.92590156805922.
 Size: maximum value 13.815511 is for 1000000 words or more.
