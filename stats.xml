@@ -34,21 +34,24 @@
     <tag name="X">95</tag><!-- a, and, my, really, the, you, American, Amnesty, Associated, Casa -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="38">
+  <feats unique="41">
     <feat name="Abbr" value="Yes" upos="DET,NOUN,PRON,PROPN,VERB,X">123</feat><!-- США, н., э., г., гг., э, BBC, е., т., CNN -->
     <feat name="Animacy" value="Anim" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1234</feat><!-- людей, человек, люди, детей, жителей, императора, Клинтон, представителей, президента, режиссера -->
-    <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">5041</feat><!-- году, года, время, США, лет, войны, города, компании, результате, течение -->
+    <feat name="Animacy" value="Inan" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">5042</feat><!-- году, года, время, США, лет, войны, города, компании, результате, течение -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">1272</feat><!-- был, было, были, является, была, может, быть, говорит, есть, могут -->
     <feat name="Aspect" value="Perf" upos="VERB">1064</feat><!-- сказал, стало, заявил, стал, сделать, сказала, получили, получить, привести, принял -->
-    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1521</feat><!-- время, его, себя, это, течение, то, свои, ее, несколько, свою -->
+    <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1522</feat><!-- время, его, себя, это, течение, то, свои, ее, несколько, свою -->
     <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">452</feat><!-- мере, мне, ему, крайней, всему, году, ей, данным, нам, правительству -->
     <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">2832</feat><!-- года, того, лет, войны, этого, н., США, века, города, людей -->
     <feat name="Case" value="Ins" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">884</feat><!-- тем, самым, образом, собой, главным, летом, ними, одним, помощью, другими -->
     <feat name="Case" value="Loc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">1057</feat><!-- году, том, результате, качестве, этом, основном, начале, конце, мире, своей -->
-    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">2562</feat><!-- он, это, они, она, которые, я, который, мы, которая, что -->
+    <feat name="Case" value="Nom" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">2561</feat><!-- он, это, они, она, которые, я, который, мы, которая, что -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">82</feat><!-- более, больше, лучше, менее, ранее, позже, выше, меньше, раньше, чаще -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">2506</feat><!-- также, еще, где, так, там, очень, уже, все, примерно, возможно -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">16</feat><!-- наиболее, лучших, важнейшим, крупнейшим, лучшего, лучшим, наибольшее, наихудших, худшим -->
+    <feat name="ExtPos" value="ADP" upos="DET">12</feat><!-- такие, таких, таким, такими -->
+    <feat name="ExtPos" value="ADV" upos="ADP,PRON">24</feat><!-- в, по, до, Тем, все, прежде -->
+    <feat name="ExtPos" value="CCONJ" upos="PRON">4</feat><!-- т., То -->
     <feat name="Foreign" value="Yes" upos="NOUN,PROPN,X">208</feat><!-- BBC, CNN, a, and, Film, My, RECO, Really, Spotify, The -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">2860</feat><!-- она, была, войны, которая, своей, н., компании, часть, этой, страны -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">4180</feat><!-- он, году, был, года, США, этот, лет, его, людей, города -->
@@ -75,31 +78,31 @@
     <feat name="Voice" value="Pass" upos="VERB">295</feat><!-- использовался, использованы, обсуждается, объявлен, потраченное, включены, выращенных, закрыт, использовалась, написано -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="39">
+  <deps unique="40">
     <dep name="acl">256</dep>
     <dep name="acl:relcl">160</dep>
     <dep name="advcl">197</dep>
-    <dep name="advmod">914</dep>
+    <dep name="advmod">909</dep>
     <dep name="amod">1791</dep>
     <dep name="appos">121</dep>
     <dep name="aux">42</dep>
     <dep name="aux:pass">128</dep>
     <dep name="case">2121</dep>
-    <dep name="cc">599</dep>
-    <dep name="ccomp">132</dep>
+    <dep name="cc">603</dep>
+    <dep name="ccomp">131</dep>
     <dep name="compound">9</dep>
     <dep name="conj">695</dep>
-    <dep name="cop">87</dep>
-    <dep name="csubj">47</dep>
-    <dep name="det">476</dep>
+    <dep name="cop">88</dep>
+    <dep name="csubj">48</dep>
+    <dep name="det">460</dep>
     <dep name="discourse">7</dep>
     <dep name="expl">7</dep>
-    <dep name="fixed">222</dep>
+    <dep name="fixed">234</dep>
     <dep name="flat">61</dep>
     <dep name="flat:foreign">97</dep>
     <dep name="flat:name">222</dep>
     <dep name="iobj">190</dep>
-    <dep name="mark">287</dep>
+    <dep name="mark">283</dep>
     <dep name="nmod">1934</dep>
     <dep name="nsubj">1362</dep>
     <dep name="nsubj:pass">186</dep>
@@ -107,10 +110,11 @@
     <dep name="nummod:entity">1</dep>
     <dep name="nummod:gov">73</dep>
     <dep name="obj">749</dep>
-    <dep name="obl">1465</dep>
+    <dep name="obl">1470</dep>
     <dep name="obl:agent">12</dep>
     <dep name="orphan">17</dep>
     <dep name="parataxis">195</dep>
+    <dep name="parataxis:discourse">3</dep>
     <dep name="punct">2977</dep>
     <dep name="root">1000</dep>
     <dep name="vocative">2</dep>
