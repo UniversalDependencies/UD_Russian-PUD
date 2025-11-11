@@ -78,7 +78,7 @@
     <feat name="Voice" value="Pass" upos="VERB">295</feat><!-- использовался, использованы, обсуждается, объявлен, потраченное, включены, выращенных, закрыт, использовалась, написано -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="40">
+  <deps unique="41">
     <dep name="acl">256</dep>
     <dep name="acl:relcl">160</dep>
     <dep name="advcl">197</dep>
@@ -104,14 +104,15 @@
     <dep name="iobj">190</dep>
     <dep name="mark">283</dep>
     <dep name="nmod">1934</dep>
-    <dep name="nsubj">1362</dep>
+    <dep name="nsubj">1363</dep>
     <dep name="nsubj:pass">186</dep>
     <dep name="nummod">183</dep>
     <dep name="nummod:entity">1</dep>
     <dep name="nummod:gov">73</dep>
-    <dep name="obj">749</dep>
+    <dep name="obj">747</dep>
     <dep name="obl">1470</dep>
     <dep name="obl:agent">12</dep>
+    <dep name="obl:float">1</dep>
     <dep name="orphan">17</dep>
     <dep name="parataxis">195</dep>
     <dep name="parataxis:discourse">3</dep>
